@@ -1,0 +1,18 @@
+[0.159s] Invoking command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp -- -j12 -l12
+[0.173s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.254s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.296s] -- Added test 'lint_cmake' to check CMake code style
+[0.297s] -- Added test 'xmllint' to check XML markup files
+[0.297s] -- Configuring done
+[0.299s] -- Generating done
+[0.300s] -- Build files have been written to: /home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp
+[0.316s] Invoked command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp -- -j12 -l12
+[0.317s] Invoking command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp
+[0.322s] -- Install configuration: ""
+[0.322s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.322s]   file INSTALL cannot find
+[0.322s]   "/home/kuldip/myroboticarm_ws/src/myroboticarm_description_cpp/urdf": No
+[0.322s]   such file or directory.
+[0.322s] 
+[0.322s] [0m
+[0.323s] Invoked command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp

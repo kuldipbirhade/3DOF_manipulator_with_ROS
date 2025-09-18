@@ -1,0 +1,9 @@
+[console_scripts]
+simple_action_client = myroboticarm.simple_action_client:main
+simple_action_server = myroboticarm.simple_action_server:main
+simple_moveit_interface = myroboticarm.simple_moveit_interface:main
+simple_parameter = myroboticarm.simple_parameter:main
+simple_publisher = myroboticarm.simple_publisher:main
+simple_service_client = myroboticarm.simple_service_client:main
+simple_service_server = myroboticarm.simple_service_server:main
+simple_subscriber = myroboticarm.simple_subscriber:main

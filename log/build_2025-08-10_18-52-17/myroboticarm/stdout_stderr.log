@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/myroboticarm/myroboticarm.egg-info/PKG-INFO
+writing dependency_links to ../../build/myroboticarm/myroboticarm.egg-info/dependency_links.txt
+writing entry points to ../../build/myroboticarm/myroboticarm.egg-info/entry_points.txt
+writing requirements to ../../build/myroboticarm/myroboticarm.egg-info/requires.txt
+writing top-level names to ../../build/myroboticarm/myroboticarm.egg-info/top_level.txt
+reading manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+writing manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying myroboticarm/simple_service_server.py -> /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm
+running install
+running install_lib
+copying /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm/simple_service_server.py -> /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm
+byte-compiling /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm/simple_service_server.py to simple_service_server.cpython-312.pyc
+  File "/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm/simple_service_server.py", line 7
+    super().__init__("simple_service_server"):  #Initializes ros2 base class i.e. Node class in this case. That is why we use super().__init__ function
+                                             ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/myroboticarm/myroboticarm.egg-info to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm-0.0.0-py3.12.egg-info
+running install_scripts
+Installing simple_parameter script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+Installing simple_publisher script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+Installing simple_subscriber script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+writing list of installed files to '/home/kuldip/myroboticarm_ws/build/myroboticarm/install.log'

@@ -1,0 +1,28 @@
+[0.333s] Invoking command in '/home/kuldip/myroboticarm_ws/src/myroboticarm': PYTHONPATH=/home/kuldip/myroboticarm_ws/build/myroboticarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myroboticarm build --build-base /home/kuldip/myroboticarm_ws/build/myroboticarm/build install --record /home/kuldip/myroboticarm_ws/build/myroboticarm/install.log --single-version-externally-managed install_data
+[0.458s] running egg_info
+[0.458s] writing ../../build/myroboticarm/myroboticarm.egg-info/PKG-INFO
+[0.458s] writing dependency_links to ../../build/myroboticarm/myroboticarm.egg-info/dependency_links.txt
+[0.458s] writing entry points to ../../build/myroboticarm/myroboticarm.egg-info/entry_points.txt
+[0.458s] writing requirements to ../../build/myroboticarm/myroboticarm.egg-info/requires.txt
+[0.458s] writing top-level names to ../../build/myroboticarm/myroboticarm.egg-info/top_level.txt
+[0.459s] reading manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+[0.459s] writing manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+[0.459s] running build
+[0.460s] running build_py
+[0.460s] copying myroboticarm/simple_publisher.py -> /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm
+[0.460s] copying myroboticarm/__init__.py -> /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm
+[0.460s] running install
+[0.460s] running install_lib
+[0.460s] copying /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm/simple_publisher.py -> /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm
+[0.460s] copying /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm/__init__.py -> /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm
+[0.461s] byte-compiling /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.461s] byte-compiling /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm/__init__.py to __init__.cpython-310.pyc
+[0.461s] running install_data
+[0.461s] copying package.xml -> /home/kuldip/myroboticarm_ws/install/myroboticarm/share/myroboticarm
+[0.461s] running install_egg_info
+[0.462s] removing '/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.462s] Copying ../../build/myroboticarm/myroboticarm.egg-info to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm-0.0.0-py3.10.egg-info
+[0.463s] running install_scripts
+[0.475s] Installing simple_publisher script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[0.475s] writing list of installed files to '/home/kuldip/myroboticarm_ws/build/myroboticarm/install.log'
+[0.490s] Invoked command in '/home/kuldip/myroboticarm_ws/src/myroboticarm' returned '0': PYTHONPATH=/home/kuldip/myroboticarm_ws/build/myroboticarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myroboticarm build --build-base /home/kuldip/myroboticarm_ws/build/myroboticarm/build install --record /home/kuldip/myroboticarm_ws/build/myroboticarm/install.log --single-version-externally-managed install_data

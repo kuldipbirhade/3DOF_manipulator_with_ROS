@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Goal",
+      "fields": [
+        {
+          "name": "task_number",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Goal",
+      "hash_string": "RIHS01_93fbc04f05b0ffd344a1231593093216ff35030c2440ef3ce1ed13f9f35584b5"
+    }
+  ]
+}

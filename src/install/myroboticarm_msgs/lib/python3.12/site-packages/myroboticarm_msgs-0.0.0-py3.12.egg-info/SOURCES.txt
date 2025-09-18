@@ -1,0 +1,6 @@
+setup.py
+myroboticarm_msgs/__init__.py
+myroboticarm_msgs.egg-info/PKG-INFO
+myroboticarm_msgs.egg-info/SOURCES.txt
+myroboticarm_msgs.egg-info/dependency_links.txt
+myroboticarm_msgs.egg-info/top_level.txt

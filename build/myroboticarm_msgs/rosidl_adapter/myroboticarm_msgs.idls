@@ -1,0 +1,5 @@
+/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:srv/AddTwoints.idl
+/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:srv/EuToQuater.idl
+/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:srv/QuaterToEu.idl
+/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:action/Fibonacci.idl
+/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:action/MyroboticarmTask.idl

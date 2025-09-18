@@ -1,0 +1,8 @@
+#Goal 
+int32 order   #We specify the datatype of the goal msg 
+---
+#Result
+int32[] sequence    # This time in the result, since we are displaying fibonacci series there should be a list rather thn just one integer. We will get the whole list of output 
+---
+#Feedback
+int32[] partial_sequence     # This is the feedback msg. Whenever there will be an addition to the series, it will be displayed here

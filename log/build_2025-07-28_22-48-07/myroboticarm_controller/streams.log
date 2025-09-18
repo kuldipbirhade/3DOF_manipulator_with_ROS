@@ -1,0 +1,6 @@
+[0.133s] Invoking command in '/home/kuldip/22.04_ros_workspaces/myroboticarm_ws/build/myroboticarm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuldip/22.04_ros_workspaces/myroboticarm_ws/build/myroboticarm_controller -- -j12 -l12
+[0.139s] [0mCMake Error: The current CMakeCache.txt directory /home/kuldip/22.04_ros_workspaces/myroboticarm_ws/build/myroboticarm_controller/CMakeCache.txt is different than the directory /home/kuldip/myroboticarm_ws/build/myroboticarm_controller where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.147s] [0mCMake Error: The source directory "/home/kuldip/myroboticarm_ws/src/myroboticarm_controller" does not exist.
+[0.147s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.148s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.149s] Invoked command in '/home/kuldip/22.04_ros_workspaces/myroboticarm_ws/build/myroboticarm_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuldip/22.04_ros_workspaces/myroboticarm_ws/build/myroboticarm_controller -- -j12 -l12

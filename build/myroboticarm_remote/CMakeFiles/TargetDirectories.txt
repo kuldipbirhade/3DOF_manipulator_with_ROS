@@ -1,0 +1,11 @@
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/uninstall.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/myroboticarm_remote_uninstall.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/ament_cmake_python_copy_myroboticarm_remote.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/ament_cmake_python_build_myroboticarm_remote_egg.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/test.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/edit_cache.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/rebuild_cache.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/list_install_components.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/install.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/install/local.dir
+/home/kuldip/myroboticarm_ws/build/myroboticarm_remote/CMakeFiles/install/strip.dir

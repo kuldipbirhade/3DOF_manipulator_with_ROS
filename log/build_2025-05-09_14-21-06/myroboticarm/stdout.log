@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/myroboticarm/myroboticarm.egg-info/PKG-INFO
+writing dependency_links to ../../build/myroboticarm/myroboticarm.egg-info/dependency_links.txt
+writing entry points to ../../build/myroboticarm/myroboticarm.egg-info/entry_points.txt
+writing requirements to ../../build/myroboticarm/myroboticarm.egg-info/requires.txt
+writing top-level names to ../../build/myroboticarm/myroboticarm.egg-info/top_level.txt
+reading manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+writing manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying myroboticarm/simple_pub.py -> /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm
+running install
+running install_lib
+copying /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm/simple_pub.py -> /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm
+byte-compiling /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm/simple_pub.py to simple_pub.cpython-310.pyc
+running install_data
+copying package.xml -> /home/kuldip/myroboticarm_ws/install/myroboticarm/share/myroboticarm
+running install_egg_info
+removing '/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/myroboticarm/myroboticarm.egg-info to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.10/site-packages/myroboticarm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_publisher script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+writing list of installed files to '/home/kuldip/myroboticarm_ws/build/myroboticarm/install.log'

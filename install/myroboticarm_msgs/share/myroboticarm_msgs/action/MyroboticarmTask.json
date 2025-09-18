@@ -1,0 +1,522 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Feedback",
+        "fields": [
+          {
+            "name": "percentage",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Goal",
+        "fields": [
+          {
+            "name": "task_number",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "myroboticarm_msgs/action/MyroboticarmTask_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask",
+      "hash_string": "RIHS01_3ec31ced606860fa630459a8f4f4842064284ef997e64fdd3aef815681a44fbe"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Feedback",
+      "hash_string": "RIHS01_b49ce20ac8e548e036365b4696dec549735ff14a701f19684628ac5953c4653b"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_FeedbackMessage",
+      "hash_string": "RIHS01_9951f437676464a6e3b01f3484e88a1b023c6adb99d696caf16bf6f9d1791682"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult",
+      "hash_string": "RIHS01_59d152c1fd5264cf94c5f14e3824e8aa59a7fe51d57b12eefd73ffd1dd076851"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Event",
+      "hash_string": "RIHS01_8d76ce5266a20b35369eccf2fef0295a7652832d85dda6765070cacbfd3c6baa"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Request",
+      "hash_string": "RIHS01_a2c82958e058d46e8c94ed93dc5074acd33c258dfdaf7cc2f235a0c2085175ef"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_GetResult_Response",
+      "hash_string": "RIHS01_92360a57e421fb6c13032c1c4ad9eb8a615a74e39fbd4bacf250829dffc10ac5"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Goal",
+      "hash_string": "RIHS01_93fbc04f05b0ffd344a1231593093216ff35030c2440ef3ce1ed13f9f35584b5"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_Result",
+      "hash_string": "RIHS01_248056b7716137df203ab7d81a5081e2fbc6d0e205de5990ac8f17a3ef5d7cc2"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal",
+      "hash_string": "RIHS01_bbd02e6486d2c8901bbf668c3a61e6da3ca1344b0922080ce27ca2a40555514e"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Event",
+      "hash_string": "RIHS01_12cc1861579dece2bf119ac6fe2f40271c66d47fb98f54ddc6a90b490f4bd179"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Request",
+      "hash_string": "RIHS01_c8ade1097f4b8436a0fa474a12c73c37adf33a3b5502a9df059768143ccb92dd"
+    },
+    {
+      "type_name": "myroboticarm_msgs/action/MyroboticarmTask_SendGoal_Response",
+      "hash_string": "RIHS01_0ebddc0741ab121ad1f7a292e52b0e21f8776b59e2c78647580cc5ea8e21afb8"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

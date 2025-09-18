@@ -1,0 +1,8 @@
+{
+  "package_name": "myroboticarm_msgs",
+  "non_idl_tuples": [
+    "/home/kuldip/myroboticarm_ws/src/myroboticarm_msgs:srv/AddTwoints.srv",
+    "/home/kuldip/myroboticarm_ws/src/myroboticarm_msgs:srv/EuToQuater.srv",
+    "/home/kuldip/myroboticarm_ws/src/myroboticarm_msgs:srv/QuaterToEu.srv"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "myroboticarm_msgs/action/Fibonacci_Result",
+      "fields": [
+        {
+          "name": "sequence",
+          "type": {
+            "type_id": 150,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "myroboticarm_msgs/action/Fibonacci_Result",
+      "hash_string": "RIHS01_c9021b4e49202b00549de48feaedb1317f356e5902b733a966404b4c5f5286a9"
+    }
+  ]
+}

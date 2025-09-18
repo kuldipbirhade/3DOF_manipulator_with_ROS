@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from myroboticarm_msgs/srv/AddTwoints.srv
+// generated code does not contain a copyright notice
+
+
+module myroboticarm_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct AddTwoints_Request {
+      int64 a;
+
+      int64 b;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct AddTwoints_Response {
+      @verbatim (language="comment", text=
+        "Now after writing this script, we need to declare its existance to the \"comliper\"")
+      int64 sum;
+    };
+  };
+};

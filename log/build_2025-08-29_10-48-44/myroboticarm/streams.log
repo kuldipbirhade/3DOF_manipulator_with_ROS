@@ -1,0 +1,31 @@
+[1.211s] Invoking command in '/home/kuldip/myroboticarm_ws/src/myroboticarm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kuldip/myroboticarm_ws/build/myroboticarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myroboticarm build --build-base /home/kuldip/myroboticarm_ws/build/myroboticarm/build install --record /home/kuldip/myroboticarm_ws/build/myroboticarm/install.log --single-version-externally-managed install_data
+[1.597s] running egg_info
+[1.619s] writing ../../build/myroboticarm/myroboticarm.egg-info/PKG-INFO
+[1.619s] writing dependency_links to ../../build/myroboticarm/myroboticarm.egg-info/dependency_links.txt
+[1.620s] writing entry points to ../../build/myroboticarm/myroboticarm.egg-info/entry_points.txt
+[1.620s] writing requirements to ../../build/myroboticarm/myroboticarm.egg-info/requires.txt
+[1.620s] writing top-level names to ../../build/myroboticarm/myroboticarm.egg-info/top_level.txt
+[1.677s] reading manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+[1.679s] writing manifest file '../../build/myroboticarm/myroboticarm.egg-info/SOURCES.txt'
+[1.679s] running build
+[1.679s] running build_py
+[1.679s] copying myroboticarm/simple_moveit_interface.py -> /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm
+[1.680s] running install
+[1.690s] running install_lib
+[1.726s] copying /home/kuldip/myroboticarm_ws/build/myroboticarm/build/lib/myroboticarm/simple_moveit_interface.py -> /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm
+[1.727s] byte-compiling /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm/simple_moveit_interface.py to simple_moveit_interface.cpython-312.pyc
+[1.729s] running install_data
+[1.729s] running install_egg_info
+[1.755s] removing '/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm-0.0.0-py3.12.egg-info' (and everything under it)
+[1.755s] Copying ../../build/myroboticarm/myroboticarm.egg-info to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm-0.0.0-py3.12.egg-info
+[1.756s] running install_scripts
+[2.043s] Installing simple_action_client script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.044s] Installing simple_action_server script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.044s] Installing simple_moveit_interface script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.044s] Installing simple_parameter script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.044s] Installing simple_publisher script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.045s] Installing simple_service_client script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.045s] Installing simple_service_server script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.045s] Installing simple_subscriber script to /home/kuldip/myroboticarm_ws/install/myroboticarm/lib/myroboticarm
+[2.046s] writing list of installed files to '/home/kuldip/myroboticarm_ws/build/myroboticarm/install.log'
+[2.095s] Invoked command in '/home/kuldip/myroboticarm_ws/src/myroboticarm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kuldip/myroboticarm_ws/build/myroboticarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myroboticarm build --build-base /home/kuldip/myroboticarm_ws/build/myroboticarm/build install --record /home/kuldip/myroboticarm_ws/build/myroboticarm/install.log --single-version-externally-managed install_data

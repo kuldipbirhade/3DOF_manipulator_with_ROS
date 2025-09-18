@@ -1,0 +1,13 @@
+{
+  "package_name": "myroboticarm_msgs",
+  "output_dir": "/home/kuldip/myroboticarm_ws/src/build/myroboticarm_msgs/rosidl_generator_type_description/myroboticarm_msgs",
+  "idl_tuples": [
+    "/home/kuldip/myroboticarm_ws/src/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:srv/AddTwoints.idl",
+    "/home/kuldip/myroboticarm_ws/src/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:srv/EuToQuater.idl",
+    "/home/kuldip/myroboticarm_ws/src/build/myroboticarm_msgs/rosidl_adapter/myroboticarm_msgs:srv/QuaterToEu.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

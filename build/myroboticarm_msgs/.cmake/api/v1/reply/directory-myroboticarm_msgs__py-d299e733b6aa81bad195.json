@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "myroboticarm_msgs__py",
+		"source" : "/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs/myroboticarm_msgs__py"
+	}
+}

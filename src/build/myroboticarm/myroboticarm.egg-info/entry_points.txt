@@ -1,0 +1,6 @@
+[console_scripts]
+simple_parameter = myroboticarm.simple_parameter:main
+simple_publisher = myroboticarm.simple_publisher:main
+simple_service_client = myroboticarm.simple_service_client:main
+simple_service_server = myroboticarm.simple_service_server:main
+simple_subscriber = myroboticarm.simple_subscriber:main

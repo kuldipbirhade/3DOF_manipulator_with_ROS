@@ -1,0 +1,94 @@
+[0.155s] Invoking command in '/home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp -- -j12 -l12
+[0.211s] -- The C compiler identification is GNU 13.3.0
+[0.254s] -- The CXX compiler identification is GNU 13.3.0
+[0.268s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.353s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.361s] -- Detecting CXX compiler ABI info
+[0.450s] -- Detecting CXX compiler ABI info - done
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.458s] -- Detecting CXX compile features
+[0.458s] -- Detecting CXX compile features - done
+[0.461s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.586s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.693s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.789s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.790s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.791s] -- Added test 'lint_cmake' to check CMake code style
+[0.791s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.794s] -- Added test 'xmllint' to check XML markup files
+[0.794s] -- Configuring done (0.6s)
+[0.798s] -- Generating done (0.0s)
+[0.799s] -- Build files have been written to: /home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp
+[0.819s] Invoked command in '/home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp -- -j12 -l12
+[0.820s] Invoking command in '/home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp
+[0.826s] -- Install configuration: ""
+[0.827s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/urdf
+[0.827s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/urdf/myroboticarm_ros2_control.xacro
+[0.827s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/urdf/myroboticarm.urdf.xacro
+[0.827s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/urdf/myroboticarm_gazebo.xacro
+[0.827s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes
+[0.827s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/horizontal_arm.STL
+[0.828s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/forward_drive_arm.dae
+[0.831s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/plate.dae
+[0.835s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/right_finger.obj
+[0.835s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/left_finger.obj
+[0.836s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/vertical_drive_arm.dae
+[0.838s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/round_plate.STL
+[0.838s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/right_finger.dae
+[0.838s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/servo_plate.STL
+[0.839s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/round_plate.dae
+[0.839s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/servo_plate.obj
+[0.839s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/link.dae
+[0.840s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/link.obj
+[0.842s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/plate.STL
+[0.842s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/horizontal_arm.obj
+[0.845s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/basement.obj
+[0.846s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/pi_camera.STL
+[0.846s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/claw_support.obj
+[0.847s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/plate.obj
+[0.853s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/right_finger.STL
+[0.853s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/round_plate.obj
+[0.853s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/pi_camera.obj
+[0.853s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/claw_support.STL
+[0.853s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/servo_plate.dae
+[0.854s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/vertical_drive_arm.STL
+[0.854s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/triangular_link.STL
+[0.854s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/basement.dae
+[0.856s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/forward_drive_arm.STL
+[0.856s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/basement.STL
+[0.857s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/forward_drive_arm.obj
+[0.858s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/left_finger.dae
+[0.859s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/claw_support.dae
+[0.860s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/triangular_link.dae
+[0.862s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/base_plate.dae
+[0.867s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/horizontal_arm.dae
+[0.869s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/pi_camera.dae
+[0.870s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/left_finger.STL
+[0.870s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/base_plate.obj
+[0.874s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/link.STL
+[0.874s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/meshes/base_plate.STL
+[0.874s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/launch
+[0.874s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/launch/display.launch.py
+[0.874s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/launch/gazebo.launch.py
+[0.874s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/rviz
+[0.874s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/rviz/display2.rviz
+[0.874s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/rviz/display.rviz
+[0.875s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/ament_index/resource_index/package_run_dependencies/myroboticarm_description_cpp
+[0.875s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/ament_index/resource_index/parent_prefix_path/myroboticarm_description_cpp
+[0.875s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/environment/ament_prefix_path.sh
+[0.875s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/environment/ament_prefix_path.dsv
+[0.875s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/environment/path.sh
+[0.875s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/environment/path.dsv
+[0.875s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/local_setup.bash
+[0.875s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/local_setup.sh
+[0.875s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/local_setup.zsh
+[0.875s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/local_setup.dsv
+[0.875s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/package.dsv
+[0.875s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/ament_index/resource_index/packages/myroboticarm_description_cpp
+[0.876s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/cmake/myroboticarm_description_cppConfig.cmake
+[0.876s] -- Up-to-date: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/cmake/myroboticarm_description_cppConfig-version.cmake
+[0.876s] -- Installing: /home/kuldip/myroboticarm_ws/src/install/myroboticarm_description_cpp/share/myroboticarm_description_cpp/package.xml
+[0.877s] Invoked command in '/home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kuldip/myroboticarm_ws/src/build/myroboticarm_description_cpp

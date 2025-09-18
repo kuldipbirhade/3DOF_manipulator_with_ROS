@@ -1,0 +1,339 @@
+[0.022s] Invoking command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuldip/myroboticarm_ws/build/myroboticarm_msgs -- -j12 -l12
+[0.170s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.170s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.171s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.171s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.171s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.202s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.211s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.464s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.866s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.876s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.885s] -- Added test 'lint_cmake' to check CMake code style
+[0.885s] -- Added test 'xmllint' to check XML markup files
+[0.887s] -- Configuring done (0.8s)
+[0.921s] -- Generating done (0.0s)
+[0.932s] -- Build files have been written to: /home/kuldip/myroboticarm_ws/build/myroboticarm_msgs
+[0.963s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.972s] [  1%] Built target ament_cmake_python_copy_myroboticarm_msgs
+[1.136s] running egg_info
+[1.155s] writing myroboticarm_msgs.egg-info/PKG-INFO
+[1.155s] writing dependency_links to myroboticarm_msgs.egg-info/dependency_links.txt
+[1.156s] writing top-level names to myroboticarm_msgs.egg-info/top_level.txt
+[1.195s] reading manifest file 'myroboticarm_msgs.egg-info/SOURCES.txt'
+[1.196s] writing manifest file 'myroboticarm_msgs.egg-info/SOURCES.txt'
+[1.214s] [  1%] Built target myroboticarm_msgs__rosidl_generator_type_description
+[1.222s] [  1%] Built target ament_cmake_python_build_myroboticarm_msgs_egg
+[1.222s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.232s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.700s] [  4%] Built target myroboticarm_msgs__cpp
+[1.770s] [  6%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/eu_to_quater__description.c.o[0m
+[1.770s] [  7%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/add_twoints__type_support.c.o[0m
+[1.770s] [  9%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/eu_to_quater__functions.c.o[0m
+[1.774s] [ 12%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/action/detail/fibonacci__functions.c.o[0m
+[1.774s] [ 15%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/add_twoints__functions.c.o[0m
+[1.774s] [ 15%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.c.o[0m
+[1.774s] [ 17%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/action/detail/fibonacci__description.c.o[0m
+[1.774s] [ 12%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/add_twoints__description.c.o[0m
+[1.774s] [ 18%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/quater_to_eu__functions.c.o[0m
+[1.775s] [ 20%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/action/detail/fibonacci__type_support.c.o[0m
+[1.776s] [ 21%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/quater_to_eu__description.c.o[0m
+[1.776s] [ 23%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.c.o[0m
+[1.938s] [ 25%] [32m[1mLinking C shared library libmyroboticarm_msgs__rosidl_generator_c.so[0m
+[1.972s] [ 25%] Built target myroboticarm_msgs__rosidl_generator_c
+[1.980s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.980s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.981s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.981s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.981s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.983s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.332s] [ 39%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myroboticarm_msgs/srv/eu_to_quater__type_support.cpp.o[0m
+[2.332s] [ 39%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myroboticarm_msgs/srv/add_twoints__type_support.cpp.o[0m
+[2.332s] [ 39%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myroboticarm_msgs/srv/quater_to_eu__type_support.cpp.o[0m
+[2.333s] [ 40%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myroboticarm_msgs/action/fibonacci__type_support.cpp.o[0m
+[2.406s] [ 42%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myroboticarm_msgs/srv/detail/add_twoints__type_support.cpp.o[0m
+[2.406s] [ 43%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.cpp.o[0m
+[2.407s] [ 45%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.cpp.o[0m
+[2.408s] [ 46%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myroboticarm_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[2.422s] [ 48%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myroboticarm_msgs/srv/detail/add_twoints__type_support.c.o[0m
+[2.471s] [ 50%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.c.o[0m
+[2.508s] [ 51%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/myroboticarm_msgs/srv/add_twoints__type_support.cpp.o[0m
+[2.521s] [ 53%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.c.o[0m
+[2.563s] [ 54%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/myroboticarm_msgs/srv/eu_to_quater__type_support.cpp.o[0m
+[2.580s] [ 56%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myroboticarm_msgs/action/detail/fibonacci__type_support.c.o[0m
+[2.617s] [ 57%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/myroboticarm_msgs/srv/quater_to_eu__type_support.cpp.o[0m
+[2.672s] [ 59%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/myroboticarm_msgs/action/fibonacci__type_support.cpp.o[0m
+[2.711s] [ 60%] [32m[1mLinking C shared library libmyroboticarm_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.729s] [ 62%] [32m[1mLinking CXX shared library libmyroboticarm_msgs__rosidl_typesupport_c.so[0m
+[2.747s] [ 62%] Built target myroboticarm_msgs__rosidl_typesupport_introspection_c
+[2.776s] [ 62%] Built target myroboticarm_msgs__rosidl_typesupport_c
+[2.838s] [ 65%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myroboticarm_msgs/srv/detail/dds_fastrtps/eu_to_quater__type_support.cpp.o[0m
+[2.838s] [ 65%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myroboticarm_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[2.839s] [ 67%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myroboticarm_msgs/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.o[0m
+[2.840s] [ 68%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myroboticarm_msgs/srv/detail/dds_fastrtps/quater_to_eu__type_support.cpp.o[0m
+[2.945s] [ 70%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myroboticarm_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[2.946s] [ 73%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myroboticarm_msgs/srv/detail/quater_to_eu__type_support_c.cpp.o[0m
+[2.946s] [ 73%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myroboticarm_msgs/srv/detail/add_twoints__type_support_c.cpp.o[0m
+[2.948s] [ 75%] [32mBuilding CXX object CMakeFiles/myroboticarm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myroboticarm_msgs/srv/detail/eu_to_quater__type_support_c.cpp.o[0m
+[3.111s] [ 76%] [32m[1mLinking CXX shared library libmyroboticarm_msgs__rosidl_typesupport_cpp.so[0m
+[3.215s] [ 76%] Built target myroboticarm_msgs__rosidl_typesupport_cpp
+[3.324s] [ 78%] [32m[1mLinking CXX shared library libmyroboticarm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.400s] [ 78%] Built target myroboticarm_msgs__rosidl_typesupport_introspection_cpp
+[3.560s] [ 79%] [32m[1mLinking CXX shared library libmyroboticarm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.598s] [ 79%] Built target myroboticarm_msgs__rosidl_typesupport_fastrtps_c
+[3.731s] [ 81%] [32m[1mLinking CXX shared library libmyroboticarm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.792s] [ 81%] Built target myroboticarm_msgs__rosidl_typesupport_fastrtps_cpp
+[3.808s] [ 81%] Built target myroboticarm_msgs
+[3.825s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.557s] [ 82%] Built target myroboticarm_msgs__py
+[4.578s] [ 85%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_py.dir/rosidl_generator_py/myroboticarm_msgs/srv/_add_twoints_s.c.o[0m
+[4.578s] [ 85%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_py.dir/rosidl_generator_py/myroboticarm_msgs/srv/_eu_to_quater_s.c.o[0m
+[4.580s] [ 87%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_py.dir/rosidl_generator_py/myroboticarm_msgs/srv/_quater_to_eu_s.c.o[0m
+[4.584s] [ 89%] [32mBuilding C object CMakeFiles/myroboticarm_msgs__rosidl_generator_py.dir/rosidl_generator_py/myroboticarm_msgs/action/_fibonacci_s.c.o[0m
+[4.735s] [ 90%] [32m[1mLinking C shared library libmyroboticarm_msgs__rosidl_generator_py.so[0m
+[4.769s] [ 90%] Built target myroboticarm_msgs__rosidl_generator_py
+[4.786s] [ 92%] [32mBuilding C object CMakeFiles/myroboticarm_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/myroboticarm_msgs/_myroboticarm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.786s] [ 93%] [32mBuilding C object CMakeFiles/myroboticarm_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/myroboticarm_msgs/_myroboticarm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.786s] [ 95%] [32mBuilding C object CMakeFiles/myroboticarm_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/myroboticarm_msgs/_myroboticarm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.886s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_c.so[0m
+[4.889s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[4.890s] [100%] [32m[1mLinking C shared module rosidl_generator_py/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.911s] [100%] Built target myroboticarm_msgs_s__rosidl_typesupport_c
+[4.916s] [100%] Built target myroboticarm_msgs_s__rosidl_typesupport_introspection_c
+[4.916s] [100%] Built target myroboticarm_msgs_s__rosidl_typesupport_fastrtps_c
+[4.925s] Invoked command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuldip/myroboticarm_ws/build/myroboticarm_msgs -- -j12 -l12
+[4.926s] Invoking command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kuldip/myroboticarm_ws/build/myroboticarm_msgs
+[4.934s] -- Install configuration: ""
+[4.934s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/ament_index/resource_index/rosidl_interfaces/myroboticarm_msgs
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/AddTwoints.json
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/EuToQuater.json
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/QuaterToEu.json
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/action/Fibonacci.json
+[4.934s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs
+[4.934s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg
+[4.934s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.934s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action
+[4.934s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__functions.h
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__struct.h
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__type_support.h
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__type_support.c
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__functions.c
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__description.c
+[4.934s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/fibonacci.h
+[4.934s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv
+[4.935s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__functions.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__functions.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__type_support.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__description.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__functions.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__functions.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__description.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__functions.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__description.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__type_support.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__struct.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__struct.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.c
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__struct.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__functions.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/add_twoints.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/eu_to_quater.h
+[4.935s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/quater_to_eu.h
+[4.935s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/library_path.sh
+[4.936s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/library_path.dsv
+[4.938s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_generator_c.so
+[4.938s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_generator_c.so" to ""
+[4.938s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs
+[4.938s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg
+[4.938s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.938s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action
+[4.938s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail
+[4.939s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[4.939s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv
+[4.939s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail
+[4.939s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__rosidl_typesupport_fastrtps_c.h
+[4.939s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__rosidl_typesupport_fastrtps_c.h
+[4.939s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__rosidl_typesupport_fastrtps_c.h
+[4.941s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_fastrtps_c.so
+[4.941s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.941s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs
+[4.941s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg
+[4.941s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.943s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action
+[4.943s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__traits.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__struct.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__builder.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__type_support.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/fibonacci.hpp
+[4.943s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv
+[4.943s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__builder.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__traits.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__type_support.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__struct.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__builder.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__struct.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__traits.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__struct.hpp
+[4.943s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__builder.hpp
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__traits.hpp
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/quater_to_eu.hpp
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/add_twoints.hpp
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/eu_to_quater.hpp
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/dds_fastrtps
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__rosidl_typesupport_fastrtps_cpp.hpp
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__rosidl_typesupport_fastrtps_cpp.hpp
+[4.944s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.944s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/dds_fastrtps
+[4.945s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.946s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.946s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs
+[4.946s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg
+[4.946s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.946s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action
+[4.946s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__type_support.c
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[4.946s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv
+[4.946s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__type_support.c
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__rosidl_typesupport_introspection_c.h
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__rosidl_typesupport_introspection_c.h
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.c
+[4.946s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.c
+[4.948s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_introspection_c.so
+[4.948s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.950s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_c.so
+[4.950s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_c.so" to ""
+[4.950s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs
+[4.950s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action
+[4.950s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail
+[4.950s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__type_support.cpp
+[4.951s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[4.951s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv
+[4.951s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail
+[4.951s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__rosidl_typesupport_introspection_cpp.hpp
+[4.951s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__type_support.cpp
+[4.951s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/quater_to_eu__type_support.cpp
+[4.951s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__rosidl_typesupport_introspection_cpp.hpp
+[4.951s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/eu_to_quater__type_support.cpp
+[4.951s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/include/myroboticarm_msgs/myroboticarm_msgs/srv/detail/add_twoints__rosidl_typesupport_introspection_cpp.hpp
+[4.953s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_introspection_cpp.so
+[4.954s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.955s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_cpp.so
+[4.955s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_typesupport_cpp.so" to ""
+[4.955s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/pythonpath.sh
+[4.955s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/pythonpath.dsv
+[4.955s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs-0.0.0-py3.12.egg-info
+[4.955s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[4.956s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_introspection_c.so
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/__init__.py
+[4.956s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/action
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/action/_fibonacci.py
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/action/__init__.py
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/action/_fibonacci_s.c
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/_myroboticarm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/_myroboticarm_msgs_s.ep.rosidl_typesupport_c.c
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_c.so
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/_myroboticarm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.956s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_quater_to_eu.py
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/__init__.py
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_add_twoints_s.c
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_eu_to_quater_s.c
+[4.956s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_quater_to_eu_s.c
+[4.957s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_add_twoints.py
+[4.957s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_eu_to_quater.py
+[4.957s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.001s] Listing '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs'...
+[5.001s] Compiling '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/__init__.py'...
+[5.001s] Listing '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/action'...
+[5.001s] Compiling '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/action/__init__.py'...
+[5.001s] Compiling '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/action/_fibonacci.py'...
+[5.001s] Listing '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv'...
+[5.001s] Compiling '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/__init__.py'...
+[5.001s] Compiling '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_add_twoints.py'...
+[5.001s] Compiling '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_eu_to_quater.py'...
+[5.001s] Compiling '/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/srv/_quater_to_eu.py'...
+[5.005s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.005s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.005s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_introspection_c.so
+[5.005s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[5.005s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_c.so
+[5.005s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/python3.12/site-packages/myroboticarm_msgs/myroboticarm_msgs_s__rosidl_typesupport_c.so" to ""
+[5.006s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_generator_py.so
+[5.006s] -- Set non-toolchain portion of runtime path of "/home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/lib/libmyroboticarm_msgs__rosidl_generator_py.so" to ""
+[5.006s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/AddTwoints.idl
+[5.006s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/EuToQuater.idl
+[5.006s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/QuaterToEu.idl
+[5.006s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/action/Fibonacci.idl
+[5.006s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/AddTwoints.srv
+[5.006s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/EuToQuater.srv
+[5.006s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/srv/QuaterToEu.srv
+[5.007s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/action/Fibonacci.action
+[5.007s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/ament_index/resource_index/package_run_dependencies/myroboticarm_msgs
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/ament_index/resource_index/parent_prefix_path/myroboticarm_msgs
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/ament_prefix_path.sh
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/ament_prefix_path.dsv
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/path.sh
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/environment/path.dsv
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/local_setup.bash
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/local_setup.sh
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/local_setup.zsh
+[5.007s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/local_setup.dsv
+[5.008s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/package.dsv
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/ament_index/resource_index/packages/myroboticarm_msgs
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_generator_cExport.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_generator_cppExport.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_cExport.cmake
+[5.008s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_cppExport.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_generator_pyExport.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/export_myroboticarm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/rosidl_cmake-extras.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.009s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.010s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.010s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.010s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.010s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.010s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgsConfig.cmake
+[5.010s] -- Up-to-date: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/cmake/myroboticarm_msgsConfig-version.cmake
+[5.010s] -- Installing: /home/kuldip/myroboticarm_ws/install/myroboticarm_msgs/share/myroboticarm_msgs/package.xml
+[5.010s] Invoked command in '/home/kuldip/myroboticarm_ws/build/myroboticarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuldip/myroboticarm_ws/install/myroboticarm_description:/home/kuldip/myroboticarm_ws/install/myroboticarm:/home/kuldip/arduinobot_ws/install/arduinobot_py_examples:/home/kuldip/myroboticarm_ws/src/install/myroboticarm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kuldip/myroboticarm_ws/build/myroboticarm_msgs

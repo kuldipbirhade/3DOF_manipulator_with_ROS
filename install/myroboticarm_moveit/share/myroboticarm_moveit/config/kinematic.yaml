@@ -1,0 +1,5 @@
+arm:
+  kinematics_solver : kdl_kinematics_plugin/KDLKinematicsPlugin  #Putting in the plugin
+  kinematics_solver_search_resolution: 0.005
+  kinematics_solver_timeout: 0.005
+  position_only_ik : True  # We olny want the position of the gripper and not the orientation of the gripper. Since, we don't have enough number of degrees of freedom in our robot
