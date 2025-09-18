@@ -1,9 +1,0 @@
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/uninstall.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/myroboticarm_controller_uninstall.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/test.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/edit_cache.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/rebuild_cache.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/list_install_components.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/install.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/install/local.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_controller/CMakeFiles/install/strip.dir

@@ -1,4 +1,0 @@
-source;share/myroboticarm_remote/local_setup.bash
-source;share/myroboticarm_remote/local_setup.dsv
-source;share/myroboticarm_remote/local_setup.sh
-source;share/myroboticarm_remote/local_setup.zsh

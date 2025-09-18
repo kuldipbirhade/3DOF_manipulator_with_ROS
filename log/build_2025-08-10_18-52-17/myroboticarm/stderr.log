@@ -1,5 +1,0 @@
-  File "/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm/simple_service_server.py", line 7
-    super().__init__("simple_service_server"):  #Initializes ros2 base class i.e. Node class in this case. That is why we use super().__init__ function
-                                             ^
-SyntaxError: invalid syntax
-

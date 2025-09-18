@@ -1,7 +1,0 @@
-setup.py
-myroboticarm_remote/__init__.py
-myroboticarm_remote/task_server.py
-myroboticarm_remote.egg-info/PKG-INFO
-myroboticarm_remote.egg-info/SOURCES.txt
-myroboticarm_remote.egg-info/dependency_links.txt
-myroboticarm_remote.egg-info/top_level.txt

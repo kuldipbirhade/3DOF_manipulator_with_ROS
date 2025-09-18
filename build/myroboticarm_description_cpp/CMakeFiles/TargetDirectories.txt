@@ -1,9 +1,0 @@
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/uninstall.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/myroboticarm_description_cpp_uninstall.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/test.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/edit_cache.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/rebuild_cache.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/list_install_components.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/install.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/install/local.dir
-/home/kuldip/myroboticarm_ws/build/myroboticarm_description_cpp/CMakeFiles/install/strip.dir

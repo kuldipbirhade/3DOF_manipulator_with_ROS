@@ -1,5 +1,0 @@
-  File "/home/kuldip/myroboticarm_ws/install/myroboticarm/lib/python3.12/site-packages/myroboticarm/simple_service_client.py", line 36
-    simple_service_client = SimpleServiceClient(int(sys.argv[1]), int(sys.argv[2])
-                                               ^
-SyntaxError: '(' was never closed
-
