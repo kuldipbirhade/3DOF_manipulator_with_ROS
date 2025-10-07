@@ -45,11 +45,10 @@ Watch the 3DOF manipulator in action below 👇
 ### 1. Prerequisites
 
 Make sure you have the following installed:
-- ROS 2 **Jazzy** (or compatible)
-- **Gazebo** (Fortress or later)
-- **MoveIt 2**
-- **colcon** build system
-- Ubuntu or Raspberry Pi (Debian-based) OS
+- Ubuntu 24.04
+- Ros2 Jazzy
+- Gazebo Harmonic
+- Moveit2
 
 ---
 
@@ -59,12 +58,12 @@ Make sure you have the following installed:
 git clone https://github.com/kuldipbirhade/3DOF_manipulator_with_ROS.git
 cd 3DOF_manipulator_with_ROS
 ```
-###Build Your Workspace
+### Build Your Workspace
 ```bash
 colcon build
 source install/setup.bash
 ```
-###Launch RViz and Gazebo
+### Launch RViz and Gazebo
 ```bash
 ros2 launch myroboticarm_description_cpp display.launch.py
 ros2 launch myroboticarm_description_cpp gazebo.launch.py
