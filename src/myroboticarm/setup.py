@@ -31,6 +31,7 @@ setup(
             'simple_action_server = myroboticarm.simple_action_server:main',
             'simple_action_client = myroboticarm.simple_action_client:main',
             'simple_moveit_interface = myroboticarm.simple_moveit_interface:main',
+            'simple_lifecycle_node = myroboticarm.simple_lifecycle_node:main',
         ],
     },
 )
