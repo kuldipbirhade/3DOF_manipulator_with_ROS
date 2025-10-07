@@ -36,12 +36,8 @@ This repository serves as a **learning project** for understanding robotic arm s
 
 Watch the 3DOF manipulator in action below 👇  
 
-<video src="https://github.com/kuldipbirhade/3DOF_manipulator_with_ROS/blob/main/images/Simulaion_demo.mp4?raw=true" 
-controls="controls" 
-muted 
-loop 
-width="720">
-Your browser does not support the video tag.
+<video width="720" controls>
+  <source src="https://github.com/kuldipbirhade/3DOF_manipulator_with_ROS/blob/main/images/Simultion_demo.mp4?raw=true" type="video/mp4">
 </video>
 
 ## ⚙️ Setup & Installation
