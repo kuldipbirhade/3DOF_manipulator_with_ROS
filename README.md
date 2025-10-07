@@ -30,19 +30,6 @@ Through this project, the manipulator’s behavior can be observed both **visual
 
 ---
 
-## Project Structure
-
-3DOF_manipulator_with_ROS/
-├── src/ # Source code: nodes, controllers, and logic
-├── build/ 
-├── install/ 
-├── log/ 
-├── .vscode/ 
-└── README.md 
-
-
----
-
 ## Setup & Installation
 
 ### 1. Prerequisites
