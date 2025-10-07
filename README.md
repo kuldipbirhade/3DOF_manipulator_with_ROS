@@ -1,15 +1,36 @@
 # 🤖 3DOF Manipulator with ROS 2 Jazzy
 
-## 🚀 Overview
 
-This project demonstrates a fully simulated **3-DOF robotic manipulator** implemented using **ROS 2 Jazzy**, with computation handled by a **Raspberry Pi**.  
-It uses **Gazebo** for realistic physics simulation, **RViz** for visualization, and **MoveIt 2** for motion planning and trajectory execution.
+## Overview
 
-This repository serves as a **learning project** for understanding robotic arm simulation and a **base framework** for future extensions in real hardware integration or AI-based manipulation.
+This project demonstrates the simulation of a **3-DOF robotic manipulator** using the **Robot Operating System 2 (ROS 2)** framework.  
+It integrates multiple key tools and functionalities of ROS 2 to provide a realistic representation of robotic motion, control, and sensor feedback.
+
+The simulation involves:
+- **RViz** for 3D visualization of the manipulator’s structure and movements.  
+- **Gazebo** as the physics engine to simulate realistic motion dynamics and interactions with the environment.  
+- **URDF (Unified Robot Description Format)** for defining the mechanical structure, geometry, and joint configuration of the manipulator.  
+- **ROS 2 Control** framework for configuring and managing the controllers that actuate the manipulator’s joints.  
+- **TF2** library for maintaining and transforming coordinate frames between different parts of the robot, enabling consistent spatial awareness.
+- **MoveIt 2** for motion planning and trajectory execution, allowing the manipulator to compute collision-free paths and perform automated tasks in simulation.
+
+Through this project, the manipulator’s behavior can be observed both **visually** and **physically simulated**, showcasing how robotic systems are modeled, controlled, and visualized in ROS 2.
 
 ---
 
-## 🧱 Project Structure
+## Key Features
+
+- **3-DOF Robotic Arm** – Modeled using URDF for accurate link and joint representation.  
+- **Full ROS 2 Integration** – Built using ROS 2 nodes, controllers, and configuration files.  
+- **Dynamic Simulation** – Uses Gazebo for physics-based simulation with gravity, inertia, and collision properties.  
+- **Visualization with RViz** – Real-time visualization of link motion and coordinate frames.  
+- **Controller Configuration** – Implemented using `ros2_control` and `ros2_controllers` packages for joint state and position control.  
+- **TF2 Support** – Transform tree defined for each joint and link to ensure accurate spatial relationships.
+- **MoveIt 2 Integration** – Enables motion planning, trajectory execution, and collision-free path generation.
+
+---
+
+## Project Structure
 
 3DOF_manipulator_with_ROS/
 ├── src/ # Source code: nodes, controllers, and logic
@@ -22,25 +43,7 @@ This repository serves as a **learning project** for understanding robotic arm s
 
 ---
 
-## 🧠 Key Features
-
-- ✅ **Dynamic simulation:** Realistic physics-based motion via Gazebo  
-- ✅ **Interactive visualization:** Full control and state monitoring in RViz  
-- ✅ **Motion planning:** Path planning and execution using MoveIt 2  
-- ✅ **Hardware-ready computation:** Compatible with Raspberry Pi  
-- ✅ **Modular structure:** Easy to extend to more DOF or new sensors  
-
----
-
-## 🎥 Demo
-
-Watch the 3DOF manipulator in action below 👇  
-
-<video width="720" controls>
-  <source src="https://github.com/kuldipbirhade/3DOF_manipulator_with_ROS/blob/main/images/Simultion_demo.mp4?raw=true" type="video/mp4">
-</video>
-
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 
