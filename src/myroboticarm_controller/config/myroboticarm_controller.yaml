@@ -5,7 +5,6 @@ controller_manager:
 
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-
     gripper_controller:
       type: joint_trajectory_controller/JointTrajectoryController
       # type: forward_command_controller/ForwardCommandController 

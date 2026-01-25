@@ -5,23 +5,32 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-
 find_package(ament_cmake REQUIRED)
-find_package(ament_cmake_python REQUIRED)  # this is because we are writing a python script in a cmake package
-find_package(rclpy REQUIRED)  
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
 
-ament_python_install_package(${PROJECT_NAME})
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(SERIAL REQUIRED libserial)
 
-install(PROGRAMS
-    ${PROJECT_NAME}/simple_serial_transmitter.py
-    DESTINATION lib/${PROJECT_NAME}
+add_executable(simple_serial_transmitter
+  src/simple_serial_transmitter.cpp
 )
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  set(ament_cmake_copyright_FOUND TRUE)
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
+ament_target_dependencies(simple_serial_transmitter
+  rclcpp
+  std_msgs
+)
+
+target_include_directories(simple_serial_transmitter PUBLIC
+  ${SERIAL_INCLUDE_DIRS}
+)
+
+target_link_libraries(simple_serial_transmitter
+  ${SERIAL_LDFLAGS}
+)
+
+install(TARGETS simple_serial_transmitter
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()

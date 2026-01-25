@@ -10,6 +10,7 @@ from launch.conditions import UnlessCondition
 
 
 
+
 def generate_launch_description():
 
     is_sim_arg = DeclareLaunchArgument(
@@ -24,6 +25,7 @@ def generate_launch_description():
         [
             "xacro ",
             os.path.join(get_package_share_directory("myroboticarm_description_cpp"), "urdf", "myroboticarm.urdf.xacro",), 
+            "is_sim:=False",
         ]
         ),
         value_type=str,
@@ -32,9 +34,11 @@ def generate_launch_description():
     robot_state_publisher = Node(
         package ="robot_state_publisher",
         executable ="robot_state_publisher",
-        #condition=UnlessCondition(is_sim),
         parameters =[{"robot_description":  robot_description}],
+        condition=UnlessCondition(is_sim),
     )
+
+    
 
 
     controller_manager = Node(

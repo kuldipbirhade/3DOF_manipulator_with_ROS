@@ -8,12 +8,13 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
+    is_sim = LaunchConfiguration("is_sim")
+
     is_sim_arg = DeclareLaunchArgument(
         "is_sim",
         default_value= "True"
     )
 
-    is_sim = LaunchConfiguration("is_sim")
 
     moveit_config = (
         MoveItConfigsBuilder("my_robotic_arm", package_name="myroboticarm_moveit")
@@ -23,20 +24,20 @@ def generate_launch_description():
         .to_moveit_configs()
     )
 
+
+# Move Group Node
     move_group_node= Node(
         package="moveit_ros_move_group",
         executable= "move_group",
         output= "screen",
         parameters=[moveit_config.to_dict(), 
                     {"use_sim_time": is_sim}, 
-                    {"publish_robot_description_semantic": True},
-                    {"use_fake_hardware": True},
-                    {"fake_execution": True}, 
-                    {"moveit_controller_manager":"moveit_fake_controller_manager/MoveItFakeControllerManager"},
-],
+                    {"publish_robot_description_semantic": True}],
         arguments=["--ros_args", "--log-level", "info"]
     )
 
+
+# RViz Node
     rviz_config = os.path.join(get_package_share_directory("myroboticarm_moveit"), "urdf", "config", "moveit.rviz",)
 
     rviz_node = Node(
@@ -48,7 +49,7 @@ def generate_launch_description():
         parameters=[moveit_config.robot_description,
                     moveit_config.robot_description_semantic,
                     moveit_config.robot_description_kinematics,
-                    moveit_config.joint_limits],
+                    moveit_config.joint_limits,],
     )
 
     return LaunchDescription([

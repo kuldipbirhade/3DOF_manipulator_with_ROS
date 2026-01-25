@@ -7,12 +7,56 @@ endif()
 
 
 find_package(ament_cmake REQUIRED)
+find_package(hardware_interface REQUIRED)
+find_package(pluginlib REQUIRED)
+find_package(rclcpp_lifecycle REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(PkgConfig REQUIRED)
+
+
+pkg_check_modules(SERIAL libserial)
+
+add_library(${PROJECT_NAME} SHARED
+  src/myroboticarm_interfaces.cpp
+)
+
+target_include_directories(${PROJECT_NAME} PRIVATE
+  include ${SERIAL_INCLUDE_DIRS}
+)
+
+target_link_libraries(${PROJECT_NAME}
+  ${SERIAL_LIBRARIES}
+)
+
+ament_target_dependencies(${PROJECT_NAME}
+  hardware_interface
+  pluginlib
+  rclcpp_lifecycle
+  rclcpp
+)
+
+pluginlib_export_plugin_description_file(hardware_interface
+  src/myroboticarm_controller.xml
+)
 
 install(
   DIRECTORY config launch
   DESTINATION share/${PROJECT_NAME}
 )
 
+install( TARGETS ${PROJECT_NAME}
+  DESTINATION lib
+)
+
+ament_export_libraries(${PROJECT_NAME})
+
+
+ament_export_dependencies(
+  hardware_interface
+  pluginlib
+  rclcpp_lifecycle
+  rclcpp
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

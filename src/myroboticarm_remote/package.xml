@@ -12,7 +12,7 @@
 
   <exec_depend condition = "$ROS_DISTRO >= iron" >moveit_py</exec_depend>
   <exec_depend>ros2launch</exec_depend>
-  <exec_depend>myrboticarm_moveit</exec_depend>
+  <exec_depend>myroboticarm_moveit</exec_depend>
   <exec_depend>python3-flask</exec_depend>
 
   <depend>rclpy</depend>

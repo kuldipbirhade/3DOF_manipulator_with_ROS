@@ -7,24 +7,43 @@
 
         <xacro:property name="PI" value="3.14159265359" />
 
-        <xacro:if value="$(arg is_ignition)">
+        <xacro:if value= "$(arg is_sim)">
             <hardware>
-                <plugin>
-                    ign_ros2_control/IgnitionSystem</plugin>
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            </hardware>
+
+          <joint name="joint_5">
+            <param name="mimic">joint_4</param>
+            <param name="multiplier">-1</param>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>           
+          </joint>
+        </xacro:if>
+
+        <xacro:unless value= "$(arg is_sim)">
+            <hardware>
+                <plugin>myroboticarm_controller/MyroboticarmInterface</plugin>
+                <param name="port">/dev/ttyUSB0</param>
+                
+            </hardware>
+        </xacro:unless>
+
+        <!-- <xacro:if value="$(arg is_ignition)">
+            <hardware>
+                <plugin>ign_ros2_control/IgnitionSystem</plugin>
                 <plugin>mock_components/GenericSystem</plugin>
             </hardware>
         </xacro:if>
         
 
-        
         <xacro:unless value="$(arg is_ignition)">
             <hardware>
                 <plugin>gz_ros2_control/GazeboSimSystem</plugin>
                 <plugin>gz_ros2_control/GazeboSimSystemInterface</plugin>
                 <plugin>gazebo_ros2_control/GazeboSystem</plugin>
             </hardware>
-        </xacro:unless> 
-        
+        </xacro:unless>  -->
+
 
         <joint name="joint_1">
             <command_interface name="position">
@@ -62,11 +81,7 @@
             <state_interface name="velocity"/>
         </joint>
 
-        <joint name="joint_5">
-            <param name="mimic">joint_4</param>
-            <param name="multiplier">-1</param>
-        </joint>
-
+        
     </ros2_control>
 
 </robot>

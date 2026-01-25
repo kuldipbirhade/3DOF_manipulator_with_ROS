@@ -1,0 +1,9 @@
+<library path ="myroboticarm_controller">
+    <class name = "myroboticarm_controller/MyroboticarmInterface"
+        type = "myroboticarm_controller::MyroboticarmInterface"
+        base_class_type = "hardware_interface::SystemInterface">
+        <description>
+            My Robotic Arm Hardware Interface
+        </description>
+    </class>
+</library>
